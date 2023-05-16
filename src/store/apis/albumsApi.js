@@ -24,9 +24,6 @@ const albumsApi = createApi({
         invalidatesTags: (result, error, album) => {
           return [{ type: "Album", id: album.id }];
         },
-        // invalidatesTags: (result, error, album) => {
-        // return [{ type: "Album", id: album.userId }];    easy solve : album cointains userId
-        // },
         query: (album) => {
           return {
             url: `/albums/${album.id}`,
@@ -56,7 +53,6 @@ const albumsApi = createApi({
           });
           tags.push({ type: "UsersAlbums", id: user.id });
           return tags;
-          // return [{ type: "Album", id: user.id }];
         },
         query: (user) => {
           return {

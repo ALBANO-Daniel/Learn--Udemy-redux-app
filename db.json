@@ -39,7 +39,63 @@
       "userId": 1,
       "title": "Gorgeous Frozen Salad",
       "id": 11
+    },
+    {
+      "userId": 4,
+      "title": "Gorgeous Granite Chair",
+      "id": 12
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=819775875842048",
+      "id": 1
+    },
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=5469768620441600",
+      "id": 2
+    },
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=4142404777017344",
+      "id": 3
+    },
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=737355734450176",
+      "id": 4
+    },
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=5887179349819392",
+      "id": 5
+    },
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=4111157793128448",
+      "id": 6
+    },
+    {
+      "albumId": 12,
+      "url": "https://loremflickr.com/150/150/abstract?lock=4531906584510464",
+      "id": 7
+    },
+    {
+      "albumId": 12,
+      "url": "https://loremflickr.com/150/150/abstract?lock=7087996157296640",
+      "id": 8
+    },
+    {
+      "albumId": 12,
+      "url": "https://loremflickr.com/150/150/abstract?lock=536915017203712",
+      "id": 9
+    },
+    {
+      "albumId": 12,
+      "url": "https://loremflickr.com/150/150/abstract?lock=1461648176971776",
+      "id": 10
+    }
+  ]
 }
