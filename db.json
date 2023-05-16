@@ -34,6 +34,11 @@
       "id": 10,
       "title": "Going Crazy",
       "userId": 1
+    },
+    {
+      "userId": 1,
+      "title": "Gorgeous Frozen Salad",
+      "id": 11
     }
   ],
   "photos": []
