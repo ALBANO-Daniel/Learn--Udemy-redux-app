@@ -29,6 +29,12 @@
       "id": 8
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": 10,
+      "title": "Going Crazy",
+      "userId": 1
+    }
+  ],
   "photos": []
 }
