@@ -4,13 +4,9 @@ import { useState } from "react";
 function ExpandablePanel({ header, children }) {
   const [expanded, setExpanded] = useState(false);
 
-  const handleClick = () => {
-    setExpanded(!expanded);
-  };
-
   return (
     <div className="mb-2 border rounded">
-      <div onClick={handleClick} className="bg-zinc-100 flex p-2 justify-between items-center cursor-pointer">
+      <div onClick={() => setExpanded(!expanded)} className="bg-zinc-100 flex p-2 justify-between items-center cursor-pointer">
         <div className="flex flex-row items-center justify-between">
           {header}
         </div>
