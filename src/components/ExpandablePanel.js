@@ -10,15 +10,15 @@ function ExpandablePanel({ header, children }) {
 
   return (
     <div className="mb-2 border rounded">
-      <div className="flex p-2 justify-between items-center">
+      <div onClick={handleClick} className="bg-zinc-100 flex p-2 justify-between items-center cursor-pointer">
         <div className="flex flex-row items-center justify-between">
           {header}
         </div>
-        <div className="cursor-pointer" onClick={handleClick}>
+        <div>
           {expanded ? <GoChevronDown /> : <GoChevronLeft />}
         </div>
       </div>
-      {expanded && <div className="p-2 border-t">{children}</div>}
+      {expanded && <div className="p-2 border-t px-12">{children}</div>}
     </div>
   );
 }

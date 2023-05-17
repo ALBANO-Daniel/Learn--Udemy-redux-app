@@ -7,9 +7,7 @@ function PhotosList({ album }) {
   const { data, error, isFetching } = useFetchPhotosQuery(album);
   const [addPhoto, addPhotoResults] = useAddPhotoMutation();
 
-  const handleAddPhoto = () => {
-    addPhoto(album);
-  };
+  const handleAddPhoto = () => addPhoto(album);
 
   let content;
   if (isFetching) {
